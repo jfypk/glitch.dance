@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#progress-bar {
+    position: absolute;
+    left: 45%;
+    top: 48%;
+    z-index: 2;
+    color: #444;
+    text-align: center;
+}

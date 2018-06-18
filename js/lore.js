@@ -34,7 +34,7 @@ function init() {
             var percentComplete = xhr.loaded / xhr.total * 100;
             //change this to print on screen...
             // console.log(Math.round(percentComplete, 2) + '% downloaded');
-            progress.innerHTML = Math.round(percentComplete, 2) + '% downloaded';
+            progress.innerHTML = "Loading... " + Math.round(percentComplete, 2) + '%';
             if (percentComplete > 99) {
                 progress.style.display = "none";
             }
